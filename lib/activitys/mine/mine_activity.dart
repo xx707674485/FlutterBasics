@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/activitys/soft_setting_activity.dart';
+import 'package:flutter_basics/activitys/system/soft_setting_activity.dart';
 import 'package:flutter_basics/configs/app_locale_config.dart';
 import 'package:flutter_basics/views/custom_app_bar.dart';
 

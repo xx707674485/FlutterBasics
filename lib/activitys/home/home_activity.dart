@@ -13,7 +13,7 @@ class _HomeActivityState extends State<HomeActivity> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(SS.activity_home_title, style: TextStyle(color: Colors.yellow),),
+        title: Text(SS.activity_home_title),
         actions: <Widget>[
           
         ],

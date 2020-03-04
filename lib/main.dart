@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'activitys/switch_support_locale_activity.dart';
+import 'activitys/system/switch_support_locale_activity.dart';
 import 'configs/app_status_holder.dart';
 import 'configs/app_theme_config.dart';
 import 'configs/const_value_key.dart';

@@ -37,6 +37,7 @@ class S implements WidgetsLocalizations {
   /// tab title 
   String get tab_home_title => "Home";
   String get tab_mine_title => "Mine";
+  String get tab_menu_title => "Moduls";
 
   /// Home Activity
   String get activity_home_title => "Home";
@@ -85,6 +86,8 @@ class $zh_CN extends S {
   String get tab_home_title => "首页";
   @override
   String get tab_mine_title => "我的";
+  @override
+  String get tab_menu_title => "模块";
 
   /// Home Activity
   @override

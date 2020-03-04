@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/activitys/login_activity.dart';
+import 'package:flutter_basics/activitys/login/login_activity.dart';
 import 'package:flutter_basics/configs/app_locale_config.dart';
 import 'package:flutter_basics/configs/app_status_holder.dart';
 import 'package:flutter_basics/configs/const_value_key.dart';

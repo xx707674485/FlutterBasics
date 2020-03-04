@@ -48,7 +48,7 @@ dependencies:
   rounded_loading_button: ^1.0.0
 
   # Bottom Navigation Bar
-  ff_navigation_bar: ^0.0.1
+  #ff_navigation_bar: ^0.0.1
 
   # Alert
   # https://flutterawesome.com/xustomizable-and-easy-to-use-alert-popup-dialogs-for-flutter/

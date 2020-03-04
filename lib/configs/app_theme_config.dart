@@ -17,6 +17,8 @@ List<ThemeData> themes = [
     dialogBackgroundColor: Color(0x7F000000),
     splashColor: Color(0xFFF4F4F4),
     brightness: Brightness.light,
+    selectedRowColor: Colors.purple,
+    unselectedWidgetColor: Colors.black45,
     buttonTheme: ButtonThemeData(
       buttonColor: Colors.white,
       splashColor: Color(0xFFF4F4F4),
@@ -56,12 +58,16 @@ List<ThemeData> themes = [
       unselectedLabelStyle: TextStyle(
         color: Color(0xFFB8B9C1),
         fontSize: 12,
-      )
+      ),
     ),
   ),
 
   ThemeData(
     // 默认theme 效果(dark模式)
+
+    selectedRowColor: Colors.purple,
+    unselectedWidgetColor: Colors.grey[200],
+
     scaffoldBackgroundColor: Color(0xFF1d2037),
     accentColor: Color(0xFF8144E5),
     backgroundColor: Color(0xFF272a3f), // A color that contrasts with the [primaryColor], e.g. used as the remaining part of a progress bar.
@@ -113,7 +119,7 @@ List<ThemeData> themes = [
             unselectedLabelStyle: TextStyle(
               color: Color(0xFFB8B9C1),
               fontSize: 12,
-            )
+            ),
     ),
   ),
 ];
