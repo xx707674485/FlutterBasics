@@ -53,3 +53,4 @@ BoxDecoration decoration_bg_color_bottom_divider_1(BuildContext ctx) => BoxDecor
         ),
       ),
     );
+

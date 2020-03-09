@@ -120,7 +120,7 @@ class _State extends State<SoftSettingActivity> {
           var target = _menuRoutes[index].second;
           if (target != null && target != "/") {
             // 跳转路由 ( 将所有参数都进行传递,用户根据需要来读取对应参数值)
-            Navigator.pushNamed(context, _menuRoutes[index].second, arguments: {
+            Navigator.pushNamed(context, target, arguments: {
               // ...
             }).then((it) {
               // 需要重新刷新状态
