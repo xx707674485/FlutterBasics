@@ -10,6 +10,19 @@ A new Flutter project.
     Engine • revision e1e6ced81d
     Tools • Dart 2.7.0
 
+## How to use
+    dependencies:
+      # add **flutter_basics** to you dependencies
+      flutter_basics:
+        git: https://github.com/ceeyang/FlutterBasics.git
+        
+    main.dart
+       /// Use the CustomApp as your default App
+       void main() => runApp(CustomApp(config: (){
+          print("config------------------");
+       }));
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
