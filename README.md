@@ -12,12 +12,12 @@ A new Flutter project.
 
 ## How to use
     dependencies:
-      # add **flutter_basics** to you dependencies
+      # add flutter_basics to you dependencies
       flutter_basics:
         git: https://github.com/ceeyang/FlutterBasics.git
         
     main.dart
-       /// Use the CustomApp as your default App
+       # Use the CustomApp as your default App
        void main() => runApp(CustomApp(config: (){
           print("config------------------");
        }));
